@@ -13,3 +13,7 @@ Feature: The is a feature
       |param|
       |this |
       |that |
+
+      Scenario: Test Context
+        When Put 'Something' in context key 'Thing'
+        Then Context key 'Thing' has value 'Something'

@@ -51,4 +51,9 @@ public class Steps {
             return item;
         }).collect(Collectors.toList());
     }
+
+    @Given("Print {}")
+    public void print(String text) {
+        System.out.println("printing "+ text);
+    }
 }

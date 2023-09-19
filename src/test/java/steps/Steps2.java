@@ -1,6 +1,7 @@
 package steps;
 
 import context.TestContext;
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
@@ -15,6 +16,7 @@ public class Steps2 {
     public void putSomthingInContextKeyThing(String value, String key) {
         this.context.put(key,value);
     }
+
 
 
 }
